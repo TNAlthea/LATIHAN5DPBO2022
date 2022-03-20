@@ -19,12 +19,14 @@ Mengubah nama variabel cukup mirip dengan metode untuk mengganti font yaitu deng
 
 c. Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
 ![Data tidak boleh kosong](https://user-images.githubusercontent.com/99664611/159172281-1b67e54a-e7d5-41bc-a5d2-5887e9235b72.png)
+
 Menambah validasi agar user tidak menginput data kosong dapat dilakukan dengan cara menambah bagian kode seperti bagian kode yang ditampilkan pada gambar tersebut. Pada prosesnya program akan membaca teks yang ada pada masing-masing textarea, lalu memanfaatkan fungsi isEmpty (bawaan library) untuk mengetahui apakah string yang terdapat pada textarea merupakan string kosong atau bukan. 
 
 *note* Juga dapat menambahkan fungsi *trim()* sebelum fungsi *isEmpty()* untuk mensiasati apabila user hanya menginput spasi.
 
 d. Menghapus data pada label inputan ketika sudah selesai add, update, delete, maupun ketika menekan tombol cancel
 ![clearText](https://user-images.githubusercontent.com/99664611/159172432-7f7b07d6-b9f7-43ab-96b0-f49002de75d7.png)
+
 Menghapus tulisan pada textarea dapat dilakukan dengan cara mengset textarea dengan string kosong. Hal itu dapat dilakukan dengan memanfaatkan fungsi setText() seperti *NamaField.setText("")*
 
 *note* saya menjadikan bagian kode tersebut sebagai fungsi tersendiri karena dipakai oleh beberapa prosedur lainnya.
