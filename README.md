@@ -12,15 +12,15 @@ Repository ini bertujuan untuk memenuhi tugas latihan 5 pada mata kuliah Desain 
 ------------------
 ## Penjelasan/Konsep program
 
-##a. Mengganti font dan ukuran teks
+a. Mengganti font dan ukuran teks
 
 Mengganti font dan ukuran teks dapat dilakukan dengan mengklik salah satu bagian teks yang diinginkan seperti label, button, dan sejenisnya (yang memuat teks) yang akan memunculkan bagian palettes/properties pada bagian kanan program terlebih dahulu. Lalu, cari textarea yang berlabel 'font' dan semua opsi pilihan font, style, dan size akan muncul dan dapat dipilih sesuai kebutuhan. Pada program ini saya merubah font menjadi Futura dengan size 24 (heading) dan 14 (sisanya).
 
-##b. Mengubah nama variabel setiap komponen (misal komponen input NIM diberi nama variabel txtNim)
+b. Mengubah nama variabel setiap komponen (misal komponen input NIM diberi nama variabel txtNim)
 
 Mengubah nama variabel cukup mirip dengan metode untuk mengganti font yaitu dengan mengklik bagian elemen yang diinginkan hingga muncul bagian palettes/properties. lalu pilih sub-menu code dan cari textarea yang berlabel 'variable name' dan ketik nama variabel yang diinginkan.
 
-##c. Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
+c. Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
 
 ![Data tidak boleh kosong](https://user-images.githubusercontent.com/99664611/159172281-1b67e54a-e7d5-41bc-a5d2-5887e9235b72.png)
 
@@ -28,7 +28,7 @@ Menambah validasi agar user tidak menginput data kosong dapat dilakukan dengan c
 
 *note* Juga dapat menambahkan fungsi *trim()* sebelum fungsi *isEmpty()* untuk mensiasati apabila user hanya menginput spasi.
 
-##d. Menghapus data pada label inputan ketika sudah selesai add, update, delete, maupun ketika menekan tombol cancel
+d. Menghapus data pada label inputan ketika sudah selesai add, update, delete, maupun ketika menekan tombol cancel
 
 ![clearText](https://user-images.githubusercontent.com/99664611/159172432-7f7b07d6-b9f7-43ab-96b0-f49002de75d7.png)
 
@@ -36,16 +36,17 @@ Menghapus tulisan pada textarea dapat dilakukan dengan cara mengset textarea den
 
 *note* saya menjadikan bagian kode tersebut sebagai fungsi tersendiri karena dipakai oleh beberapa prosedur lainnya.
 
-##e. Mengupdate tabel setiap kali ada perubahan pada data hasil add, update dan delete
+e. Mengupdate tabel setiap kali ada perubahan pada data hasil add, update dan delete
 
 mengupdate tabel dapat dilakukan dengan memanfaatkan fungsi *namaTabel.setModel(setTable())*
 
-##f. (bonus) Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap berkaitan dengan data mahasiswa. Pastikan penambahan ini ditampilkan juga di tabel
+f. (bonus) Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap berkaitan dengan data mahasiswa. Pastikan penambahan ini ditampilkan juga di tabel
 - Tambah variabel private dan juga getter-setter terhadap variabel baru tersebut.
 - Tambah parameter untuk variabel baru pada construct.
 - Karena terdapat data dummy, maka perlu tambahan juga pada record data dummy tersebut.
 - Dan juga karena perlu direpresentasikan dalam bentuk tabel, maka setTable juga perlu diubah dengan menambahkan variabel baru tersebut.
 - Lalu perlu juga penyesuaian fungsi add, dan update terhadap variabel baru.
+
 ------------------
 ## Hasil menjalankan program
 
