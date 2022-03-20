@@ -41,7 +41,7 @@ f. (bonus) Menambahkan atribut inputan baru selain yang sudah ada pada form, nam
 - Tambah parameter untuk variabel baru pada construct.
 - Karena terdapat data dummy, maka perlu tambahan juga pada record data dummy tersebut.
 - Dan juga karena perlu direpresentasikan dalam bentuk tabel, maka setTable juga perlu diubah dengan menambahkan variabel baru tersebut.
-
+- Lalu perlu juga penyesuaian fungsi add, dan update terhadap variabel baru.
 ------------------
 ## Hasil menjalankan program
 
