@@ -50,23 +50,23 @@ f. (bonus) Menambahkan atribut inputan baru selain yang sudah ada pada form, nam
 ------------------
 ## Hasil menjalankan program
 
-###Initial/Tampilan Awal
+### Initial/Tampilan Awal
 
 ![Awal](https://user-images.githubusercontent.com/99664611/159171735-05c8f3cc-5176-4441-a33c-b8ef1bb6b2fd.png)
 
-###Add
+### Add
 
 ![Add](https://user-images.githubusercontent.com/99664611/159171754-7bef1472-d10f-41d6-a876-34747c68114e.png)
 
-###Update
+### Update
 
 ![Update](https://user-images.githubusercontent.com/99664611/159171761-fa46f395-a560-442d-b210-8a1deef23e17.png)
 
-###Delete
+### Delete
 
 ![Delete](https://user-images.githubusercontent.com/99664611/159171772-7a2a8833-7e6d-442a-a3a5-9a6046adf6f1.png)
 
-###Validation
+### Validation
 
 ![validation#1](https://user-images.githubusercontent.com/99664611/159171780-f2edec40-2735-48f7-b731-c2e9d0fd97a4.png)
 ![validation#2](https://user-images.githubusercontent.com/99664611/159171784-25c9def9-cff5-4e42-bcb2-e5663ac45ff5.png)
